@@ -19,4 +19,8 @@ public class Database {
     public void closeConnection(){
         System.out.println("Conecction closed.");
     }
+
+    public void printHelloWorld(){
+        System.out.println("Hello World");
+    }
 }
